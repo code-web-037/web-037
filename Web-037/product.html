@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CeramicShop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georgia&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar fade-in-section fade-delay-1">
+        <div class="navbar-left">
+          <div class="logo">PP - SHOP</div>
+        </div>
+
+        <div class="navbar-center">
+          <nav>
+            <ul class="nav-links" id="navLinks">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="navbar-right">
+          <div class="cart">🛒<span>0</span></div>
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <span id="hamburger">☰</span>
+            <span id="close">✕</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="product-detail-page fade-in-section fade-delay-1">
+      <!-- Product Images -->
+      <div class="product-images">
+        <img
+          class="main-image"
+          src="https://leavesmall.com/cdn/shop/products/image_82b006a6-72a8-4ccc-a63a-3edb73a11ce3.jpg?v=1606833239"
+          alt="Ceramic Cup"
+        />
+
+        <div class="thumbnail-list"></div>
+      </div>
+
+      <!-- Product Information -->
+      <div class="product-info">
+        <h1>Ceramic Cup</h1>
+        <div class="price">
+          <span class="old-price">$237.00</span>
+          <span class="new-price">$189.00</span>
+        </div>
+        <p class="description">
+          Discover the beauty of ceramics with our handcrafted pieces. This
+          exquisite cup combines artistry and function, making it a versatile
+          addition to any space. Whether used as a decorative accent or a
+          practical item, this ceramic creation adds a touch of elegance to your
+          surroundings.
+        </p>
+
+        <div class="add-to-cart">
+          <input type="number" value="1" min="1" />
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-meta">
+          <p>
+            <strong>Categories:</strong> <a href="#">Ceramic</a>,
+            <a href="#">Ceramic Coatings</a>, <a href="#">Kitchenware</a>
+          </p>
+          <p>
+            <strong>Tags:</strong> <a href="#">Handcrafted</a>,
+            <a href="#">Elegant</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-products fade-in-section fade-delay-2">
+      <div class="container">
+        <h2 class="section-title fade-in-section fade-delay-3">
+          Related Products
+        </h2>
+        <div class="product-grid-2">
+          <div class="product-item fade-in-section fade-delay-4">
+            <span class="badge">Sale!</span>
+            <img
+              src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-02-300x300.jpg"
+              alt="Ceramic Pastel Plates"
+            />
+            <p class="category">Ceramic</p>
+            <h4 class="name">Ceramic Pastel Plates</h4>
+            <div class="price">
+              <span class="old-price">$239.00</span>
+              <span class="new-price">$209.00</span>
+            </div>
+          </div>
+
+          <div class="product-item fade-in-section fade-delay-5">
+            <span class="badge">Sale!</span>
+            <img
+              src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-06-300x300.jpg"
+              alt="Ceramic Garden Pots"
+            />
+            <p class="category">Ceramic</p>
+            <h4 class="name">Ceramic Garden Pots</h4>
+            <div class="price">
+              <span class="old-price">$179.00</span>
+              <span class="new-price">$159.00</span>
+            </div>
+          </div>
+
+          <div class="product-item fade-in-section fade-delay-6">
+            <span class="badge">Sale!</span>
+            <img
+              src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-08-300x300.jpg"
+              alt="Ceramic Drink Coasters"
+            />
+            <p class="category">Ceramic</p>
+            <h4 class="name">Ceramic Drink Coasters</h4>
+            <div class="price">
+              <span class="old-price">$157.00</span>
+              <span class="new-price">$99.00</span>
+            </div>
+          </div>
+
+          <div class="product-item fade-in-section fade-delay-7">
+            <span class="badge">Sale!</span>
+            <img
+              src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-03-300x300.jpg"
+              alt="Ceramic Plates and Bowls"
+            />
+            <p class="category">Ceramic</p>
+            <h4 class="name">Ceramic Plates and Bowls</h4>
+            <div class="price">
+              <span class="old-price">$249.00</span>
+              <span class="new-price">$209.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="simple-footer fade-in-section fade-delay-4">
+      <div class="footer-top fade-in-section fade-delay-5">
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Terms</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom fade-in-section fade-delay-6">
+        <div class="footer-left">
+          <h2 class="footer-logo">PP - Shop</h2>
+          <p>© 2025 Digital. Powered by PP-Shop.</p>
+        </div>
+        <div class="footer-right">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/349/349221.png"
+            alt="Visa"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/349/349228.png"
+            alt="Mastercard"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/870/870910.png"
+            alt="Stripe"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/870/870944.png"
+            alt="PayPal"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <!-- Font Awesome (for icons) -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="navbar.js"></script>
+    <script src="animation.js"></script>
+    <script src="product-detail.js"></script>
+  </body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PP-Shop</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georgia&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+   <header>
+        <div class="navbar fade-in-section fade-delay-1">
+            <div class="navbar-left">
+                <div class="logo">PP - SHOP</div>
+            </div>
+
+            <div class="navbar-center">
+                <nav>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="navbar-right">
+                <div class="cart">🛒<span>0</span></div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span id="hamburger">☰</span>
+                    <span id="close">✕</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<section class="hero fade-in-section fade-delay-2">
+  <div class="text-content fade-in-section fade-delay-3">
+    <p class="subheading">WELCOME TO CERAMIC SHOP</p>
+    <h1>Elevate Your<br />Space with<br />Ceramic<br />Elegance.</h1>
+    <p class="price">Starting from just $149.00</p>
+    <a href="#" class="btn">SHOP NOW</a>
+  </div>
+  <div class="image-stack fade-in-section fade-delay-4">
+    <img
+      src="https://s359.kapook.com/r/600/auto/pagebuilder/94a98ace-72c6-4000-8153-6fb86fed788e.jpg"
+      alt="Background Ceramic"
+      class="back-image"
+    />
+    <img
+      src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/hero-02.jpg"
+      alt="Plant in Cup"
+      class="front-image"
+    />
+  </div>
+</section>
+
+
+<section class="about-section fade-in-section fade-delay-5">
+  <p class="section-label">ABOUT CERAMIC SHOP</p>
+  <h2 class="about-heading">
+    The versatility of ceramics is what makes them truly remarkable,<br />
+    with their presence in various forms such as stoneware and porcelain.
+  </h2>
+
+  <div class="about-content fade-in-section fade-delay-6">
+    <div class="about-image-left">
+      <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/about-01.jpg" alt="Ceramic in Hand" />
+    </div>
+
+    <div class="about-image-right">
+      <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/about-02.jpg" alt="Ceramic Cups" />
+      <div class="about-text fade-in-section fade-delay-7">
+        <h3>
+          Welcome to Ceramic Shop, where passion meets<br />
+          craftsmanship to bring you a world of timeless beauty<br />
+          and creativity.
+        </h3>
+        <p>
+          Our journey is steeped in the art of ceramics, where each piece
+          tells a unique story. Get to know the heart and soul behind our
+          store.
+        </p>
+        <a href="#" class="btn-outline">READ MORE</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="product-category fade-in-section fade-delay-8">
+  <div class="product-wrapper">
+    <!-- Left content -->
+    <div class="product-info fade-in-section fade-delay-9">
+      <p class="section-label">THE BEST OF CERAMICS</p>
+      <h2 class="section-title">Our Products Category</h2>
+      <p class="section-description">
+        Explore our exquisite collection of ceramic treasures that elevate your
+        spaces and celebrate the artistry of craftsmanship. From dinnerware to
+        decor, each piece in our product range is a testament to quality, style,
+        and the timeless beauty of ceramics.
+      </p>
+
+      <div class="product-card">
+        <img src="https://ychef.files.bbci.co.uk/1280x720/p0fcp1bx.jpg" alt="Product Left" />
+        <div class="product-caption">
+          <h4>Stylish Ceramic Home Decor</h4>
+          <p>Starting from just $99.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right product column -->
+    <div class="product-grid-1 fade-in-section fade-delay-10">
+      <div class="product-card">
+        <img src="https://www.apetogentleman.com/wp-content/uploads/2020/04/minimalist-wardrobe.jpg" />
+        <div class="product-caption">
+          <h4>Trending Ceramic Dinnerware</h4>
+          <p>Starting from just $289.00</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://dansilvestre.com/wp-content/uploads/2019/05/priscilla-du-preez-228220-unsplash-1024x683.jpg" alt="Garden Accents" />
+        <div class="product-caption">
+          <h4>Garden and Outdoor Accents</h4>
+          <p>Starting from just $149.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="latest-products fade-in-section fade-delay-1">
+  <div class="container fade-in-section fade-delay-2">
+    <h2 class="section-title fade-in-section fade-delay-3">
+      Discover the Latest Additions at Your Top<br />
+      Choice Flower Shop
+    </h2>
+
+    <div class="product-grid-2 fade-in-section fade-delay-4">
+      <!-- Item 1 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-1">
+        <span class="badge">Sale!</span>
+        <img src="https://leavesmall.com/cdn/shop/products/image_82b006a6-72a8-4ccc-a63a-3edb73a11ce3.jpg?v=1606833239" alt="Ceramic Cup"/>
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Cup</h4>
+        <div class="price">
+          <span class="old-price">$237.00</span>
+          <span class="new-price">$189.00</span>
+        </div>
+      </a>
+
+      <!-- Item 2 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-2">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2024/02/ceramic-cup-01-300x300.jpg" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+
+      <!-- Item 3 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-3">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-01-300x300.jpg" alt="Ceramic Planter" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+
+      <!-- Item 4 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-4">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-02-300x300.jpg" alt="Ceramic Planter" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+
+      <!-- Item 5 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-5">
+        <span class="badge">Sale!</span>
+        <img src="https://leavesmall.com/cdn/shop/products/image_82b006a6-72a8-4ccc-a63a-3edb73a11ce3.jpg?v=1606833239" alt="Ceramic Cup" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Cup</h4>
+        <div class="price">
+          <span class="old-price">$237.00</span>
+          <span class="new-price">$189.00</span>
+        </div>
+      </a>
+
+      <!-- Item 6 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-6">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2024/02/ceramic-cup-01-300x300.jpg" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+
+      <!-- Item 7 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-7">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-01-300x300.jpg" alt="Ceramic Planter" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+
+      <!-- Item 8 -->
+      <a href="product.html" class="product-item fade-in-section fade-delay-8">
+        <span class="badge">Sale!</span>
+        <img src="https://websitedemos.net/ceramic-products-store-04/wp-content/uploads/sites/1413/2023/10/product-02-300x300.jpg" alt="Ceramic Planter" />
+        <p class="category">Ceramic</p>
+        <h4 class="name">Ceramic Planter</h4>
+        <div class="price">
+          <span class="old-price">$349.00</span>
+          <span class="new-price">$299.00</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="cta-banner fade-in-section fade-delay-2">
+  <div class="cta-content fade-in-section fade-delay-3">
+    <h2>Begin Your Ceramic Journey Explore<br />Our Stunning Collections</h2>
+    <p>Starting from just $149.00</p>
+    <a href="#" class="btn-outline">SHOP NOW</a>
+  </div>
+</section>
+
+
+<section class="testimonials fade-in-section fade-delay-3">
+  <div class="container fade-in-section fade-delay-4">
+    <p class="section-label">TESTIMONIAL</p>
+    <h2 class="section-title">What Our Customers Say</h2>
+
+    <div class="testimonial-grid">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-box fade-in-section fade-delay-1">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">
+          Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <div class="user-info">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Wade Warren">
+          <div>
+            <p class="user-name">Wade Warren</p>
+            <p class="user-role">Business Man</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-box fade-in-section fade-delay-2">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">
+          Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <div class="user-info">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mila Kunis">
+          <div>
+            <p class="user-name">Mila Kunis</p>
+            <p class="user-role">Fashion Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="simple-footer fade-in-section fade-delay-4">
+  <div class="footer-top fade-in-section fade-delay-5">
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Terms</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Support</h4>
+      <ul>
+       <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom fade-in-section fade-delay-6">
+    <div class="footer-left">
+      <h2 class="footer-logo">PP - Shop</h2>
+      <p>© 2025 Digital. Powered by PP-Shop.</p>
+    </div>
+    <div class="footer-right">
+      <img src="https://cdn-icons-png.flaticon.com/128/349/349221.png" alt="Visa" />
+      <img src="https://cdn-icons-png.flaticon.com/128/349/349228.png" alt="Mastercard" />
+      <img src="https://cdn-icons-png.flaticon.com/128/870/870910.png" alt="Stripe" />
+      <img src="https://cdn-icons-png.flaticon.com/128/870/870944.png" alt="PayPal" />
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Font Awesome (for icons) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<button id="backToTop" title="Go to top">↑</button>
+
+
+    <script src="navbar.js"></script>
+    <script src="animation.js"></script>
+  </body>
+</html>
